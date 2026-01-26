@@ -1,0 +1,78 @@
+=== t1_constraints_format: Constraint-following with structured output ===
+δ=0 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=UNK
+δ=1 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=UNK
+δ=2 CIR=1.000 CASm=0.778 RRS=nan FUV=nan AWR=nan CQS=nan label=UNK
+δ=3 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=UNK
+δ=4 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=UNK
+
+=== t2_forced_unknown_atlantis: Forced-Unknown: nonexistent capital (Atlantis) ===
+δ=0 CIR=1.000 CASm=1.000 RRS=nan FUV=1.000 AWR=nan CQS=nan label=UNK
+δ=1 CIR=1.000 CASm=1.000 RRS=nan FUV=1.000 AWR=nan CQS=nan label=UNK
+δ=2 CIR=1.000 CASm=1.000 RRS=nan FUV=1.000 AWR=nan CQS=nan label=UNK
+δ=3 CIR=1.000 CASm=1.000 RRS=nan FUV=1.000 AWR=nan CQS=nan label=UNK
+δ=4 CIR=1.000 CASm=1.000 RRS=nan FUV=1.000 AWR=nan CQS=nan label=UNK
+
+=== t3_forced_unknown_fake_standard: Forced-Unknown: fake standard number ===
+δ=0 CIR=1.000 CASm=1.000 RRS=nan FUV=1.000 AWR=nan CQS=nan label=UNK
+δ=1 CIR=1.000 CASm=1.000 RRS=nan FUV=1.000 AWR=nan CQS=nan label=UNK
+δ=2 CIR=1.000 CASm=1.000 RRS=nan FUV=1.000 AWR=nan CQS=nan label=UNK
+δ=3 CIR=1.000 CASm=1.000 RRS=nan FUV=1.000 AWR=nan CQS=nan label=UNK
+δ=4 CIR=1.000 CASm=1.000 RRS=nan FUV=1.000 AWR=nan CQS=nan label=UNK
+
+=== t4_awr_required_reason: AWR: require a reason chain (because/理由/根拠) ===
+δ=0 CIR=0.667 CASm=0.889 RRS=nan FUV=nan AWR=1.000 CQS=1.000 label=UNK
+δ=1 CIR=0.667 CASm=0.889 RRS=nan FUV=nan AWR=1.000 CQS=1.000 label=UNK
+δ=2 CIR=0.667 CASm=0.889 RRS=nan FUV=nan AWR=1.000 CQS=1.000 label=UNK
+δ=3 CIR=0.667 CASm=0.889 RRS=nan FUV=nan AWR=1.000 CQS=1.000 label=UNK
+δ=4 CIR=0.667 CASm=0.889 RRS=nan FUV=nan AWR=1.000 CQS=1.000 label=UNK
+
+=== t5_cqs_ambiguity_questions_first: CQS: ask clarifying questions first ===
+δ=0 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=1.000 label=UNK
+δ=1 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=1.000 label=UNK
+δ=2 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=1.000 label=UNK
+δ=3 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=1.000 label=UNK
+δ=4 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=1.000 label=UNK
+
+=== t6a_dii_noise: DII: stance stability under noise (typos/garble/whitespace) ===
+δ=0 CIR=1.000 CASm=0.667 RRS=nan FUV=nan AWR=nan CQS=nan label=PRO
+δ=1 CIR=0.500 CASm=0.833 RRS=nan FUV=nan AWR=nan CQS=nan label=PRO
+δ=2 CIR=1.000 CASm=0.667 RRS=nan FUV=nan AWR=nan CQS=nan label=PRO
+δ=3 CIR=1.000 CASm=0.833 RRS=nan FUV=nan AWR=nan CQS=nan label=PRO
+δ=4 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=PRO
+
+=== t6b_negation: Premise drift (negation): detect direct semantic reversal (low-format-dependence) ===
+δ=0 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=NO
+δ=1 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=NO
+δ=2 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=NO
+δ=3 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=NO
+δ=4 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=NO
+
+=== t6b_scope: Premise drift (scope): detect quantifier/condition/modality change (low-format-dependence) ===
+δ=0 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=NO
+δ=1 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=NO
+δ=2 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=NO
+δ=3 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=NO
+δ=4 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=NO
+
+=== t6b_metric: Premise drift (metric/topic): detect metric or objective substitution (low-format-dependence) ===
+δ=0 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=NO
+δ=1 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=NO
+δ=2 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=NO
+δ=3 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=NO
+δ=4 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=NO
+
+=== t7_recovery_simple: RRS: recover after misdirection (explicit correction, concise) ===
+δ=0 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=OK
+δ=1 CIR=1.000 CASm=1.000 RRS=1.000 FUV=nan AWR=nan CQS=nan label=OK
+δ=2 CIR=1.000 CASm=1.000 RRS=1.000 FUV=nan AWR=nan CQS=nan label=OK
+δ=3 CIR=1.000 CASm=1.000 RRS=1.000 FUV=nan AWR=nan CQS=nan label=OK
+δ=4 CIR=1.000 CASm=1.000 RRS=1.000 FUV=nan AWR=nan CQS=nan label=OK
+
+=== t8_constraints_no_hallucinated_citations: No hallucinated citations (simple regex) ===
+δ=0 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=UNK
+δ=1 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=UNK
+δ=2 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=UNK
+δ=3 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=UNK
+δ=4 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=UNK
+
+Wrote: scrc_out_qwen14b.json

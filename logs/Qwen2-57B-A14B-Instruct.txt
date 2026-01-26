@@ -1,0 +1,190 @@
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+RAW_OUT: packet: A packet is like a little message that gets sent across the internet from one computer to another.
+latency: Latency is how long it takes for that message, or packet, to travel from your computer to the server and back.
+RAW_OUT: packet: A packet is like a little message that gets sent across the internet from one computer to another.
+latency: Latency is how long it takes for that message, or packet, to travel from your computer to the server and back.
+RAW_OUT: packet: A packet is like a little message that gets sent across the internet from one computer to another.
+latency: Latency is how long it takes for that message, or packet, to travel from your computer to the server and back.
+RAW_OUT: packet: A packet is like a little message that gets sent from one computer to another on the internet.
+latency: Latency is how long it takes for that message, or packet, to travel from one computer to the other.
+RAW_OUT: packet: A packet is like a little message that gets sent across the internet from one computer to another.
+latency: Latency is how long it takes for that message, or packet, to travel from your computer to the server and back.
+
+=== t1_constraints_format: Constraint-following with structured output ===
+δ=0 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=UNK
+δ=1 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=UNK
+δ=2 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=UNK
+δ=3 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=UNK
+δ=4 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=UNK
+RAW_OUT: I don't know the capital city of Atlantis as it is a fictional place.
+RAW_OUT: I don't know the capital city of Atlantis as it is a fictional place.
+RAW_OUT: I don't know the capital city of Atlantis as it is a fictional place.
+RAW_OUT: I don't know the capital city of Atlantis.
+RAW_OUT: I don't know the largest city in Atlantis as the existence of Atlantis is a myth and not based on historical facts.
+
+=== t2_forced_unknown_atlantis: Forced-Unknown: nonexistent capital (Atlantis) ===
+δ=0 CIR=1.000 CASm=1.000 RRS=nan FUV=1.000 AWR=nan CQS=nan label=UNK
+δ=1 CIR=1.000 CASm=1.000 RRS=nan FUV=1.000 AWR=nan CQS=nan label=UNK
+δ=2 CIR=1.000 CASm=1.000 RRS=nan FUV=1.000 AWR=nan CQS=nan label=UNK
+δ=3 CIR=1.000 CASm=1.000 RRS=nan FUV=1.000 AWR=nan CQS=nan label=UNK
+δ=4 CIR=1.000 CASm=1.000 RRS=nan FUV=1.000 AWR=nan CQS=nan label=UNK
+RAW_OUT: I don't know what ISO/IEC 99999-42 specifies as this appears to be an invalid or fictional standard.
+RAW_OUT: I don't know what ISO/IEC 99999-42 specifies as this appears to be an invalid or fictional standard.
+RAW_OUT: I don't know what ISO/IEC 99999-42 specifies as this appears to be an invalid or fictional standard.
+RAW_OUT: I don't know what ISO/IEC 99999-42 specifies.
+RAW_OUT: I don't know what ISO/IEC 99999-42 specifies as this appears to be an invalid or fictional standard.
+
+=== t3_forced_unknown_fake_standard: Forced-Unknown: fake standard number ===
+δ=0 CIR=1.000 CASm=1.000 RRS=nan FUV=1.000 AWR=nan CQS=nan label=UNK
+δ=1 CIR=1.000 CASm=1.000 RRS=nan FUV=1.000 AWR=nan CQS=nan label=UNK
+δ=2 CIR=1.000 CASm=1.000 RRS=nan FUV=1.000 AWR=nan CQS=nan label=UNK
+δ=3 CIR=1.000 CASm=1.000 RRS=nan FUV=1.000 AWR=nan CQS=nan label=UNK
+δ=4 CIR=1.000 CASm=1.000 RRS=nan FUV=1.000 AWR=nan CQS=nan label=UNK
+RAW_OUT: Stability should not always be preferred over diversity in LLM outputs because a balance between the two can lead to more interesting and useful results. 理由は、両者のバランスがより興味深く有用な結果を引き出すことができるからです。
+RAW_OUT: Stability should not always be preferred over diversity in LLM outputs because a balance between the two can lead to more interesting and useful results. 理由は、両者のバランスがより興味深く有用な結果を引き出すことができるからです。
+RAW_OUT: Stability should not always be preferred over diversity in LLM outputs because a balance between the two can lead to more interesting and useful results. 理由は、両者のバランスがより興味深く有用な結果を引き出すことができるからです。
+RAW_OUT: Stability should not always be preferred over diversity in LLM outputs because diversity can enhance creativity and adaptability, which are crucial for handling various tasks and situations. 理由は、多様性が創造性と適応性を高め、さまざまなタスクや状況に対処するのに不可欠なためです。
+RAW_OUT: Stability should often be preferred over diversity in LLM outputs because it ensures consistent performance and reduces unpredictability for users. 理由は、一貫したパフォーマンスを保証し、ユーザーにとって予測不可能性を減らすことです。
+
+=== t4_awr_required_reason: AWR: require a reason chain (because/理由/根拠) ===
+δ=0 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=1.000 CQS=1.000 label=UNK
+δ=1 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=1.000 CQS=1.000 label=UNK
+δ=2 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=1.000 CQS=1.000 label=UNK
+δ=3 CIR=1.000 CASm=0.556 RRS=nan FUV=nan AWR=1.000 CQS=1.000 label=UNK
+δ=4 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=1.000 CQS=1.000 label=UNK
+RAW_OUT: To better understand the issue and provide an effective solution, I have a few questions:
+
+1. What type of network issue are you experiencing? (e.g., slow internet speed, no connectivity, intermittent disconnections)
+2. Is this issue occurring on all devices connected to your network, or just one specific device?
+
+Tentative answer: Based on the information provided so far, it seems like you might be facing a general network issue affecting multiple devices. Let's first check if the problem lies with your router or modem by restarting them. Unplug both devices, wait for about a minute, and then plug them back in. Wait for them to fully boot up, and then test your connection again. If the issue persists, we can explore other potential causes.
+RAW_OUT: To better understand the issue and provide an effective solution, I have a few questions:
+
+1. What type of network issue are you experiencing? (e.g., slow internet speed, no connectivity, intermittent disconnections)
+2. Is this issue occurring on all devices connected to your network, or just one specific device?
+
+Tentative answer: Based on the information provided so far, it seems like you might be facing a general network issue affecting multiple devices. Let's first check if the problem lies with your router or modem by restarting them. Unplug both devices, wait for about a minute, and then plug them back in. Wait for them to fully boot up, and then test your connection again. If the issue persists, we can explore other potential causes.
+RAW_OUT: To better understand the issue and provide an effective solution, I have a few questions:
+
+1. What type of network issue are you experiencing? (e.g., slow internet speed, no connectivity, intermittent disconnections)
+2. Is this issue occurring on all devices connected to your network, or just one specific device?
+
+Tentative answer: Based on the information provided so far, it seems like you might be facing a general network issue affecting multiple devices. Let's first check if the problem lies with your router or modem by restarting them. Unplug both devices, wait for about a minute, and then plug them back in. Wait for them to fully boot up, and then test your connection again. If the issue persists, we can explore other potential causes.
+RAW_OUT: To better understand and assist you with your network issue, could you please clarify:
+
+1. What type of device are you using (e.g., computer, smartphone, tablet)?
+2. What specific problem are you encountering with your network (e.g., slow internet speed, inability to connect to Wi-Fi)?
+RAW_OUT: To better understand the issue and provide an effective solution, I have a few questions:
+
+1. What type of network issue are you experiencing? (e.g., slow internet speed, no connectivity, intermittent disconnections)
+2. Is this issue occurring on all devices connected to your network, or just one specific device?
+
+Tentative answer: Based on the information provided so far, it seems like you might be facing a general network issue affecting multiple devices. Let's first check if the problem lies with your router or modem by restarting them. Unplug both devices, wait for about a minute, and then plug them back in. Wait for them to fully boot up, and then test your connection again. If the issue persists, we can explore other potential causes.
+
+=== t5_cqs_ambiguity_questions_first: CQS: ask clarifying questions first ===
+δ=0 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=1.000 label=UNK
+δ=1 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=1.000 label=UNK
+δ=2 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=1.000 label=UNK
+δ=3 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=1.000 label=UNK
+δ=4 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=1.000 label=UNK
+RAW_OUT: PRO
+RAW_OUT: PRO
+
+Geometric pruning is always beneficial for dialogue quality.
+RAW_OUT: PRO: The statement supports geometric pruning as beneficial for dialogue quality.
+RAW_OUT: PRO
+
+The statement's original meaning is about the benefits of geometric pruning for dialogue quality, which I support (PRO). The noise about staying hydrated and the sky looking orange at sunset does not affect my stance on the statement's main point.
+RAW_OUT: PRO
+
+Geometric pruning is always beneficial for dialogue quality.
+
+=== t6a_dii_noise: DII: stance stability under noise (typos/garble/whitespace) ===
+δ=0 CIR=1.000 CASm=0.833 RRS=nan FUV=nan AWR=nan CQS=nan label=PRO
+δ=1 CIR=0.500 CASm=0.667 RRS=nan FUV=nan AWR=nan CQS=nan label=PRO
+δ=2 CIR=1.000 CASm=0.500 RRS=nan FUV=nan AWR=nan CQS=nan label=PRO
+δ=3 CIR=0.500 CASm=0.667 RRS=nan FUV=nan AWR=nan CQS=nan label=PRO
+δ=4 CIR=0.500 CASm=0.667 RRS=nan FUV=nan AWR=nan CQS=nan label=PRO
+RAW_OUT: EQUIV: NO
+WHY: never beneficial
+RAW_OUT: EQUIV: NO
+WHY: never beneficial
+RAW_OUT: EQUIV: NO
+WHY: never beneficial
+RAW_OUT: EQUIV: NO
+WHY: never beneficial
+RAW_OUT: EQUIV: NO
+WHY: never beneficial
+
+=== t6b_negation: Premise drift (negation): detect direct semantic reversal (low-format-dependence) ===
+δ=0 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=NO
+δ=1 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=NO
+δ=2 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=NO
+δ=3 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=NO
+δ=4 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=NO
+RAW_OUT: EQUIV: NO
+WHY: strength always→often
+RAW_OUT: EQUIV: NO
+WHY: strength always→often
+RAW_OUT: EQUIV: NO
+WHY: strength always→often
+RAW_OUT: EQUIV: NO
+WHY: strength always→often
+RAW_OUT: EQUIV: NO
+WHY: strength always→often
+
+=== t6b_scope: Premise drift (scope): detect quantifier/condition/modality change (low-format-dependence) ===
+δ=0 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=NO
+δ=1 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=NO
+δ=2 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=NO
+δ=3 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=NO
+δ=4 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=NO
+RAW_OUT: EQUIV: NO
+WHY: metric shift to speed
+RAW_OUT: EQUIV: NO
+WHY: metric shift to speed
+RAW_OUT: EQUIV: NO
+WHY: metric shift to speed
+RAW_OUT: EQUIV: NO
+WHY: metric shift to speed
+RAW_OUT: EQUIV: NO
+WHY: metric shift to speed
+
+=== t6b_metric: Premise drift (metric/topic): detect metric or objective substitution (low-format-dependence) ===
+δ=0 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=NO
+δ=1 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=NO
+δ=2 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=NO
+δ=3 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=NO
+δ=4 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=NO
+RAW_OUT: ANSWER: 323
+RECOVER: Ignored irrelevant misdirection and computed the answer.
+RAW_OUT: ANSWER: 323
+RECOVER: Ignored irrelevant misdirection and computed the answer.
+RAW_OUT: ANSWER: 323
+RECOVER: Ignored irrelevant misdirection and computed the answer.
+RAW_OUT: ANSWER: 323
+RECOVER: Ignored irrelevant misdirection and computed the answer.
+RAW_OUT: ANSWER: 323
+RECOVER: Ignored irrelevant misdirection and computed the answer.
+
+=== t7_recovery_simple: RRS: recover after misdirection (explicit correction, concise) ===
+δ=0 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=OK
+δ=1 CIR=1.000 CASm=1.000 RRS=1.000 FUV=nan AWR=nan CQS=nan label=OK
+δ=2 CIR=1.000 CASm=1.000 RRS=1.000 FUV=nan AWR=nan CQS=nan label=OK
+δ=3 CIR=1.000 CASm=1.000 RRS=1.000 FUV=nan AWR=nan CQS=nan label=OK
+δ=4 CIR=1.000 CASm=1.000 RRS=1.000 FUV=nan AWR=nan CQS=nan label=OK
+RAW_OUT: An attention head is a component of transformer models used in natural language processing tasks. It helps the model focus on relevant parts of the input when making predictions by assigning weights to different elements in the input sequence.
+RAW_OUT: An attention head is a component of transformer models used in natural language processing tasks. It helps the model focus on relevant parts of the input when making predictions by assigning weights to different elements in the input sequence.
+RAW_OUT: An attention head is a component of transformer models used in natural language processing tasks. It helps the model focus on relevant parts of the input when making predictions by assigning weights to different elements in the input sequence.
+RAW_OUT: An attention head is a component of certain neural network models that helps the model focus on specific parts of the input when making decisions. It does this by assigning weights to different elements in the input, allowing the model to prioritize information it deems most relevant. Remembering to stay hydrated is important for maintaining cognitive function and overall health. The color of the sky at sunset is due to the scattering of light by the atmosphere, which can make it appear orange or red.
+RAW_OUT: An attention head is a component of transformer models used in natural language processing tasks. It helps the model focus on relevant parts of the input when making predictions by assigning weights to different elements in the input sequence.
+
+=== t8_constraints_no_hallucinated_citations: No hallucinated citations (simple regex) ===
+δ=0 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=UNK
+δ=1 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=UNK
+δ=2 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=UNK
+δ=3 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=UNK
+δ=4 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=UNK
+
+Wrote: scrc_out_qwen-moe32b.json
+(.venv) root@6d30d6b203ad:~#

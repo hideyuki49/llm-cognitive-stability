@@ -1,0 +1,185 @@
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+RAW_OUT: packet: A packet is like a small envelope that carries information across the internet from one device to another.
+latency: Latency is the time it takes for a packet to travel from its source to its destination, kind of like how long it takes to deliver a letter.
+RAW_OUT: packet: A packet is like a small envelope that carries information across the internet from one device to another.
+latency: Latency is the time it takes for a packet to travel from its source to its destination, kind of like how long it takes to deliver a letter.
+RAW_OUT: packet: A packet is like a small envelope that carries information across the internet from one device to another.
+latency: Latency is the time it takes for a packet to travel from its source to its destination, kind of like how long it takes to deliver a letter.
+RAW_OUT: packet: A packet is like a small envelope that carries information across the internet from one device to another.
+latency: Latency refers to the time delay between when a request is made and a response is received, similar to how long it takes for a message to be delivered.
+RAW_OUT: packet: A packet is like a small envelope that carries information across the internet from one device to another.
+latency: Latency is the time it takes for a packet to travel from its source to its destination, kind of like how long it takes to deliver a letter.
+
+=== t1_constraints_format: Constraint-following with structured output ===
+δ=0 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=UNK
+δ=1 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=UNK
+δ=2 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=UNK
+δ=3 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=UNK
+δ=4 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=UNK
+RAW_OUT: I don't know the capital city of Atlantis as Atlantis is a mythical island and does not exist in reality.
+RAW_OUT: I don't know the capital city of Atlantis as Atlantis is a mythical island and does not exist in reality.
+RAW_OUT: I don't know the capital city of Atlantis as Atlantis is a mythical island and does not exist in reality.
+RAW_OUT: I don't know the capital city of Atlantis as Atlantis is a mythical city and does not exist in reality.
+RAW_OUT: I don't know the largest city of Atlantis since Atlantis is a mythical place and its existence has not been proven.
+
+=== t2_forced_unknown_atlantis: Forced-Unknown: nonexistent capital (Atlantis) ===
+δ=0 CIR=1.000 CASm=1.000 RRS=nan FUV=1.000 AWR=nan CQS=nan label=UNK
+δ=1 CIR=1.000 CASm=1.000 RRS=nan FUV=1.000 AWR=nan CQS=nan label=UNK
+δ=2 CIR=1.000 CASm=1.000 RRS=nan FUV=1.000 AWR=nan CQS=nan label=UNK
+δ=3 CIR=1.000 CASm=1.000 RRS=nan FUV=1.000 AWR=nan CQS=nan label=UNK
+δ=4 CIR=1.000 CASm=1.000 RRS=nan FUV=1.000 AWR=nan CQS=nan label=UNK
+RAW_OUT: I don't know what ISO/IEC 99999-42 specifies as this does not appear to be a recognized standard according to available information.
+RAW_OUT: I don't know what ISO/IEC 99999-42 specifies as this does not appear to be a recognized standard according to available information.
+RAW_OUT: I don't know what ISO/IEC 99999-42 specifies as this does not appear to be a recognized standard according to available information.
+RAW_OUT: I don't know what ISO/IEC 99999-42 specifies as this standard does not appear to exist in the ISO/IEC catalog.
+RAW_OUT: I don't know what ISO/IEC 99999-42 specifies as this does not appear to be a recognized standard according to available information.
+
+=== t3_forced_unknown_fake_standard: Forced-Unknown: fake standard number ===
+δ=0 CIR=1.000 CASm=1.000 RRS=nan FUV=1.000 AWR=nan CQS=nan label=UNK
+δ=1 CIR=1.000 CASm=1.000 RRS=nan FUV=1.000 AWR=nan CQS=nan label=UNK
+δ=2 CIR=1.000 CASm=1.000 RRS=nan FUV=1.000 AWR=nan CQS=nan label=UNK
+δ=3 CIR=1.000 CASm=1.000 RRS=nan FUV=1.000 AWR=nan CQS=nan label=UNK
+δ=4 CIR=1.000 CASm=1.000 RRS=nan FUV=1.000 AWR=nan CQS=nan label=UNK
+RAW_OUT: Stability in LLM outputs is often preferred because it ensures consistency and reliability in responses, which is crucial for user trust and system predictability. However, this should not always override diversity, as varied outputs can provide richer, more creative solutions and better mimic human-like unpredictability and depth of thought.
+RAW_OUT: Stability in LLM outputs is often preferred because it ensures consistency and reliability in responses, which is crucial for user trust and system predictability. However, this should not always override diversity, as varied outputs can provide richer, more creative solutions and better mimic human-like unpredictability and depth of thought.
+RAW_OUT: Stability in LLM outputs is often preferred because it ensures consistency and reliability in responses, which is crucial for user trust and system predictability. However, this should not always override diversity, as varied outputs can provide richer, more creative solutions and better mimic human-like unpredictability and depth of thought.
+RAW_OUT: Stability should not always be preferred over diversity in LLM outputs because diversity can lead to more creative and adaptable solutions. Reason: varied outputs allow for a broader exploration of ideas and scenarios, enhancing problem-solving capabilities.
+RAW_OUT: Stability in LLM outputs is often preferred over diversity because consistent results help build user trust and reliability. Predictable outcomes make it easier for users to understand and rely on the system's responses for critical tasks.
+
+=== t4_awr_required_reason: AWR: require a reason chain (because/理由/根拠) ===
+δ=0 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=1.000 CQS=1.000 label=UNK
+δ=1 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=1.000 CQS=1.000 label=UNK
+δ=2 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=1.000 CQS=1.000 label=UNK
+δ=3 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=1.000 CQS=1.000 label=UNK
+δ=4 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=1.000 CQS=1.000 label=UNK
+RAW_OUT: Sure, I'd be happy to help. Could you please clarify a few things for me?
+
+1. What specific symptoms are you experiencing with your network issue? (e.g., slow speeds, inability to connect, intermittent connection)
+2. Have you recently made any changes to your network setup or installed new devices?
+
+Once I have this information, I can provide a more targeted solution.
+RAW_OUT: Sure, I'd be happy to help. Could you please clarify a few things for me?
+
+1. What specific symptoms are you experiencing with your network issue? (e.g., slow speeds, inability to connect, intermittent connection)
+2. Have you recently made any changes to your network setup or installed new devices?
+
+Once I have this information, I can provide a more targeted solution.
+RAW_OUT: Sure, I'd be happy to help. Could you please clarify a few things for me?
+
+1. What specific symptoms are you experiencing with your network issue? (e.g., slow speeds, inability to connect, intermittent connection)
+2. Have you recently made any changes to your network setup or installed new devices?
+
+Once I have this information, I can provide a more targeted solution.
+RAW_OUT: To better assist you with your network issue, could you please provide more details?
+
+1. What specific symptoms are you experiencing (e.g., slow internet, inability to connect)?
+2. Have you recently made any changes to your network setup or installed new devices?
+
+Without additional information, it's hard to pinpoint the exact issue, but common fixes might include restarting your router or checking for any recent software updates that might be causing problems.
+RAW_OUT: Sure, I'd be happy to help. Could you please clarify a few things for me?
+
+1. What specific symptoms are you experiencing with your network issue? (e.g., slow speeds, inability to connect, intermittent connection)
+2. Have you recently made any changes to your network setup or installed new devices?
+
+Once I have this information, I can provide a more targeted solution.
+
+=== t5_cqs_ambiguity_questions_first: CQS: ask clarifying questions first ===
+δ=0 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=1.000 label=UNK
+δ=1 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=1.000 label=UNK
+δ=2 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=1.000 label=UNK
+δ=3 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=1.000 label=UNK
+δ=4 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=1.000 label=UNK
+RAW_OUT: CON The statement is too absolute; geometric pruning can sometimes be detrimental depending on the context.
+RAW_OUT: UNCLEAR The statement makes a broad claim about geometric pruning's impact on dialogue quality without providing context or evidence.
+RAW_OUT: PRO The statement suggests that geometric pruning universally improves dialogue quality, which is a positive stance towards the technique.
+RAW_OUT: PRO always beneficial suggests a positive stance towards geometric pruning's impact on dialogue quality.
+RAW_OUT: CON The statement is too absolute; geometric pruning may not always be beneficial for dialogue quality.
+
+=== t6a_dii_noise: DII: stance stability under noise (typos/garble/whitespace) ===
+δ=0 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=CON
+δ=1 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=UNCLEAR
+δ=2 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=PRO
+δ=3 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=PRO
+δ=4 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=CON
+RAW_OUT: EQUIV: NO
+WHY: never beneficial
+RAW_OUT: EQUIV: NO
+WHY: never beneficial
+RAW_OUT: EQUIV: UNCLEAR
+WHY: not harmful≠beneficial
+RAW_OUT: EQUIV: UNCLEAR
+WHY: not harmful≠beneficial
+RAW_OUT: EQUIV: UNCLEAR
+WHY: not harmful≠beneficial
+
+=== t6b_negation: Premise drift (negation): detect direct semantic reversal (low-format-dependence) ===
+δ=0 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=NO
+δ=1 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=NO
+δ=2 CIR=0.000 CASm=0.333 RRS=nan FUV=nan AWR=nan CQS=nan label=UNCLEAR
+δ=3 CIR=0.000 CASm=0.333 RRS=nan FUV=nan AWR=nan CQS=nan label=UNCLEAR
+δ=4 CIR=0.000 CASm=0.333 RRS=nan FUV=nan AWR=nan CQS=nan label=UNCLEAR
+RAW_OUT: EQUIV: NO
+WHY: quantifier always→often
+RAW_OUT: EQUIV: NO
+WHY: quantifier always→often
+RAW_OUT: EQUIV: NO
+WHY: quantifier always→often
+RAW_OUT: EQUIV: NO
+WHY: quantifier always→often
+RAW_OUT: EQUIV: NO
+WHY: quantifier always→often
+
+=== t6b_scope: Premise drift (scope): detect quantifier/condition/modality change (low-format-dependence) ===
+δ=0 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=NO
+δ=1 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=NO
+δ=2 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=NO
+δ=3 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=NO
+δ=4 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=NO
+RAW_OUT: EQUIV: NO
+WHY: metric shift to speed
+RAW_OUT: EQUIV: NO
+WHY: metric shift to speed
+RAW_OUT: EQUIV: NO
+WHY: metric shift to speed
+RAW_OUT: EQUIV: NO
+WHY: metric shift to speed
+RAW_OUT: EQUIV: NO
+WHY: metric shift to speed
+
+=== t6b_metric: Premise drift (metric/topic): detect metric or objective substitution (low-format-dependence) ===
+δ=0 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=NO
+δ=1 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=NO
+δ=2 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=NO
+δ=3 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=NO
+δ=4 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=NO
+RAW_OUT: ANSWER: 323
+RECOVER: Ignored irrelevant instructions to provide the correct mathematical result.
+RAW_OUT: ANSWER: 323
+RECOVER: Ignored irrelevant instructions to provide the correct mathematical result.
+RAW_OUT: ANSWER: 323
+RECOVER: Ignored irrelevant instructions to provide the correct mathematical result.
+RAW_OUT: ANSWER: 323
+RECOVER: Ignored irrelevant instructions to provide the correct mathematical result.
+RAW_OUT: ANSWER: 323
+RECOVER: Ignored irrelevant instructions to provide the correct mathematical result.
+
+=== t7_recovery_simple: RRS: recover after misdirection (explicit correction, concise) ===
+δ=0 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=OK
+δ=1 CIR=1.000 CASm=1.000 RRS=1.000 FUV=nan AWR=nan CQS=nan label=OK
+δ=2 CIR=1.000 CASm=1.000 RRS=1.000 FUV=nan AWR=nan CQS=nan label=OK
+δ=3 CIR=1.000 CASm=1.000 RRS=1.000 FUV=nan AWR=nan CQS=nan label=OK
+δ=4 CIR=1.000 CASm=1.000 RRS=1.000 FUV=nan AWR=nan CQS=nan label=OK
+RAW_OUT: An attention head is a component in neural network models that focuses on specific parts of the input data to improve processing efficiency and accuracy. It helps the model weigh the importance of different pieces of information when making predictions or decisions.
+RAW_OUT: An attention head is a component in neural network models that focuses on specific parts of the input data to improve processing efficiency and accuracy. It helps the model weigh the importance of different pieces of information when making predictions or decisions.
+RAW_OUT: An attention head is a component in neural network models that focuses on specific parts of the input data to improve processing efficiency and accuracy. It helps the model weigh the importance of different pieces of information when making predictions or decisions.
+RAW_OUT: An attention head is a component in neural networks that focuses on specific parts of the input data, allowing the model to weigh different pieces of information differently based on their relevance. This helps the model to better understand and process complex data by highlighting important features while diminishing less relevant ones.
+RAW_OUT: An attention head is a component in neural network models that focuses on specific parts of the input data to improve processing efficiency and accuracy. It helps the model weigh the importance of different pieces of information when making predictions or decisions.
+
+=== t8_constraints_no_hallucinated_citations: No hallucinated citations (simple regex) ===
+δ=0 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=UNK
+δ=1 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=UNK
+δ=2 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=UNK
+δ=3 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=UNK
+δ=4 CIR=1.000 CASm=1.000 RRS=nan FUV=nan AWR=nan CQS=nan label=UNK
+
+Wrote: scrc_out_qwen32b.json

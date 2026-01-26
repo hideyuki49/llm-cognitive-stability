@@ -17,8 +17,8 @@ that are not captured by conventional accuracy benchmarks, focusing instead on
 ├── scrc_eval.py # Main evaluation script
 ├── tasks.json # Task definitions
 └── logs/
-├── summary.txt # Human-readable summaries per model
-└── scrc_out.json # Raw structured outputs (machine-readable)
+  ├── summary.txt # Human-readable summaries per model
+  └── scrc_out.json # Raw structured outputs (machine-readable)
 
 ---
 
