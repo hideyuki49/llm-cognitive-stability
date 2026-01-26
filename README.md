@@ -11,7 +11,7 @@ that are not captured by conventional accuracy benchmarks, focusing instead on
 ---
 
 ## Repository Structure
-
+```text
 .
 ├── README.md
 ├── scrc_eval.py # Main evaluation script
@@ -19,7 +19,7 @@ that are not captured by conventional accuracy benchmarks, focusing instead on
 └── logs/
   ├── summary.txt # Human-readable summaries per model
   └── scrc_out.json # Raw structured outputs (machine-readable)
-
+```
 ---
 
 ## Evaluated Models
